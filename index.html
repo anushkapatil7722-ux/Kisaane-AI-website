@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Smart Farmer Assistant, the AI-powered mobile app helping farmers identify crop diseases, get weather forecasts, fertilizer suggestions, and live mandi prices.">
+  <title>Smart Farmer Assistant - Smart Farming, Better Future</title>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header id="header">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Smart Farmer Assistant Home">
+        <span class="logo-leaf" aria-hidden="true"></span>
+        <span>KisaanAI</span>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#problem">Challenges</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#tech">Technology</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="#download" class="btn btn-secondary">See Demo</a>
+        <a href="#download" class="btn btn-primary">Download App</a>
+      </div>
+      
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content fade-in-scroll">
+          <span class="section-tag">Empowering Indian Farmers</span>
+          <h1 class="hero-title">Smart Farming,<br>Better Future.</h1>
+          <p class="hero-subtitle">An AI-powered mobile app designed to help farmers make data-driven decisions, increase productivity, and reduce crop losses in real-time.</p>
+          <div class="hero-actions">
+            <a href="#download" class="btn btn-primary">Download the App</a>
+            <a href="#features" class="btn btn-secondary">See How It Works</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>98%</h3>
+              <p>Scan Accuracy</p>
+            </div>
+            <div class="stat-item">
+              <h3>50k+</h3>
+              <p>Active Farmers</p>
+            </div>
+            <div class="stat-item">
+              <h3>25%</h3>
+              <p>Yield Increase</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-mockup-wrapper fade-in-scroll">
+          <div class="hero-mockup-bg"></div>
+          <div class="hero-mockup">
+            <img src="hero_phone_mockup.png" alt="Smart Farmer Assistant app running on a smartphone showing AI crop disease diagnosis" width="360" height="740">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section class="problem" id="problem">
+      <div class="container">
+        <div class="text-center" style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+          <span class="section-tag">The Challenge</span>
+          <h2 class="section-title">Challenges in Modern Agriculture</h2>
+          <p class="section-desc">Traditional farming practices face unprecedented difficulties. Here are the key pain points modern farmers face daily.</p>
+        </div>
+        
+        <div class="problem-grid">
+          <!-- Problem 1 -->
+          <div class="problem-card fade-in-scroll">
+            <div class="problem-icon" aria-hidden="true">🌧️</div>
+            <h3>Unpredictable Weather</h3>
+            <p>Sudden rainstorms, droughts, and changing climate cycles make planning irrigation and harvests a risky guessing game.</p>
+          </div>
+          <!-- Problem 2 -->
+          <div class="problem-card fade-in-scroll">
+            <div class="problem-icon" aria-hidden="true">🍂</div>
+            <h3>Crop Disease Identification</h3>
+            <p>Identifying pests and diseases early is difficult, leading to late intervention and severe yield loss.</p>
+          </div>
+          <!-- Problem 3 -->
+          <div class="problem-card fade-in-scroll">
+            <div class="problem-icon" aria-hidden="true">🧪</div>
+            <h3>Incorrect Fertilizer Usage</h3>
+            <p>Using excessive or incorrect fertilizers damages soil health, wastes money, and lowers overall crop quality.</p>
+          </div>
+          <!-- Problem 4 -->
+          <div class="problem-card fade-in-scroll">
+            <div class="problem-icon" aria-hidden="true">📈</div>
+            <h3>Opaque Market Pricing</h3>
+            <p>Lack of live market pricing leaves farmers at the mercy of middlemen, reducing profit margins.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Solution & Features Section -->
+    <section class="solution" id="features">
+      <div class="container">
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+          <span class="section-tag">Our Solution</span>
+          <h2 class="section-title">How Smart Farmer Assistant Works</h2>
+          <p class="section-desc">We combine artificial intelligence with localized agricultural data to put expert knowledge directly into your hands.</p>
+        </div>
+
+        <div class="solution-grid">
+          <!-- Feature Selectors -->
+          <div class="features-grid fade-in-scroll">
+            <!-- Feature 1 -->
+            <div class="feature-card active" data-feature="scanner" tabindex="0">
+              <div class="feature-icon" aria-hidden="true">📸</div>
+              <div class="feature-details">
+                <h3>AI Crop Disease Detection</h3>
+                <p>Upload a photo of your leaf and let our AI instantly diagnose crop health and outline remedies.</p>
+              </div>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-card" data-feature="weather" tabindex="0">
+              <div class="feature-icon" aria-hidden="true">🌦️</div>
+              <div class="feature-details">
+                <h3>Weather Forecast & Alerts</h3>
+                <p>Receive localized hourly rain forecasts and smart reminders of the best harvesting window.</p>
+              </div>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-card" data-feature="fertilizer" tabindex="0">
+              <div class="feature-icon" aria-hidden="true">🌿</div>
+              <div class="feature-details">
+                <h3>Fertilizer Recommendation</h3>
+                <p>Input your soil parameters to get exact fertilizer schedules and usage guides.</p>
+              </div>
+            </div>
+            <!-- Feature 4 -->
+            <div class="feature-card" data-feature="market" tabindex="0">
+              <div class="feature-icon" aria-hidden="true">💰</div>
+              <div class="feature-details">
+                <h3>Market Price Information</h3>
+                <p>Access real-time crop rates in local Mandis to ensure you sell at the best profit margins.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Demo Display -->
+          <div class="solution-interactive fade-in-scroll">
+            <div class="demo-box">
+              <div class="demo-header">
+                <span class="demo-title" id="demo-title">
+                  <span class="demo-title-icon">📸</span> AI Crop Scanner
+                </span>
+                <div class="demo-dots">
+                  <div class="demo-dot"></div>
+                  <div class="demo-dot"></div>
+                  <div class="demo-dot"></div>
+                </div>
+              </div>
+              <div class="demo-body">
+                <!-- AI Crop Scanner Widget -->
+                <div class="scanner-demo" id="demo-scanner">
+                  <div class="scanner-viewfinder">
+                    <div class="scanner-laser" id="scanner-laser"></div>
+                    <!-- Inline SVG graphics of leaf templates -->
+                    <svg id="default-leaf-svg" viewBox="0 0 100 100" style="width: 80px; fill: hsl(141, 30%, 75%);">
+                      <path d="M50,15 C20,35 20,65 50,85 C80,65 80,35 50,15 Z M50,15 L50,85" stroke="hsl(141, 30%, 60%)" stroke-width="2" />
+                    </svg>
+                    <svg id="selected-leaf-svg" viewBox="0 0 100 100" style="display: none; width: 120px;">
+                      <!-- Tomato Blight Leaf graphic -->
+                      <path id="leaf-path" d="M50,10 C20,30 15,65 50,90 C85,65 80,30 50,10 Z" fill="#4CAF50" />
+                      <!-- spots representing blight -->
+                      <circle id="blight-spot-1" cx="35" cy="45" r="5" fill="#5c4033" opacity="0.8" />
+                      <circle id="blight-spot-2" cx="62" cy="38" r="6" fill="#8B4513" opacity="0.7" />
+                      <circle id="blight-spot-3" cx="48" cy="60" r="4" fill="#5c4033" opacity="0.9" />
+                    </svg>
+                  </div>
+                  
+                  <div class="scanner-options">
+                    <button class="scan-sample-btn" data-crop="tomato">🍅 Tomato Leaf</button>
+                    <button class="scan-sample-btn" data-crop="corn">🌽 Corn Leaf</button>
+                    <button class="scan-sample-btn" data-crop="cotton">🌱 Cotton Leaf</button>
+                  </div>
+                  
+                  <div class="scanner-results" id="scanner-results">
+                    <h4 id="results-headline">Disease Detection Result</h4>
+                    <p id="results-text">Select a crop leaf above to run the simulated AI diagnostic scan.</p>
+                  </div>
+                </div>
+
+                <!-- Weather Alerts Widget -->
+                <div class="weather-demo" id="demo-weather">
+                  <div class="weather-widget">
+                    <div class="weather-header">
+                      <div>
+                        <h3>Nashik District</h3>
+                        <p style="color: rgba(255,255,255,0.8);">Sunny Intervals</p>
+                      </div>
+                      <span class="weather-icon-large">⛅</span>
+                    </div>
+                    <div style="display: flex; align-items: baseline; margin-bottom: 16px;">
+                      <span class="weather-temp">31°C</span>
+                    </div>
+                    <div class="weather-stats-grid">
+                      <div>
+                        <strong>Rain Risk</strong>
+                        <p>15%</p>
+                      </div>
+                      <div>
+                        <strong>Humidity</strong>
+                        <p>62%</p>
+                      </div>
+                      <div>
+                        <strong>Wind Speed</strong>
+                        <p>12 km/h</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="crop-weather-advisor">
+                    <div class="advisor-status">
+                      <span style="font-size: 20px;">💡</span> Smart Advisor Alert
+                    </div>
+                    <p style="font-size: 15px;" id="weather-advice-text">Select a crop from the features to see weather tailored suggestions.</p>
+                  </div>
+                </div>
+
+                <!-- Fertilizer Recommender Widget -->
+                <div class="fertilizer-demo" id="demo-fertilizer">
+                  <div class="form-group">
+                    <label for="crop-select">Select Crop</label>
+                    <select id="crop-select">
+                      <option value="wheat">🌾 Wheat</option>
+                      <option value="rice">🍚 Rice</option>
+                      <option value="sugarcane">🎋 Sugarcane</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="soil-select">Select Soil Type</label>
+                    <select id="soil-select">
+                      <option value="loamy">Loamy Soil</option>
+                      <option value="clayey">Clayey Soil</option>
+                      <option value="sandy">Sandy Soil</option>
+                    </select>
+                  </div>
+
+                  <button class="btn btn-primary" id="btn-calc-fertilizer" style="width: 100%; padding: 12px; margin-top: 8px;">Calculate Fertilizer</button>
+
+                  <div class="fertilizer-output" id="fertilizer-output">
+                    <h4 id="fert-title">Recommended Mix</h4>
+                    <p id="fert-text" style="font-size: 15px; color: var(--text-dark);"></p>
+                  </div>
+                </div>
+
+                <!-- Market Prices Widget -->
+                <div class="market-demo" id="demo-market">
+                  <div class="market-search">
+                    <input type="text" id="market-search-input" placeholder="Search Mandi or Crop (e.g. Pune, Wheat)..." aria-label="Search Mandi Prices">
+                  </div>
+                  
+                  <div class="market-list" id="market-list">
+                    <!-- Dynamic Mandi Data -->
+                    <div class="market-item" data-crop="wheat" data-mandi="pune">
+                      <div class="market-crop">
+                        <span class="crop-name">🌾 Wheat (Gehun)</span>
+                        <span class="mandi-name">Pune Mandi</span>
+                      </div>
+                      <div class="market-pricing">
+                        <span class="crop-price">₹2,450/q</span>
+                        <div class="price-change up">▲ +₹35 (1.4%)</div>
+                      </div>
+                    </div>
+
+                    <div class="market-item" data-crop="rice" data-mandi="nashik">
+                      <div class="market-crop">
+                        <span class="crop-name">🍚 Rice (Dhan)</span>
+                        <span class="mandi-name">Nashik Mandi</span>
+                      </div>
+                      <div class="market-pricing">
+                        <span class="crop-price">₹3,800/q</span>
+                        <div class="price-change up">▲ +₹80 (2.1%)</div>
+                      </div>
+                    </div>
+
+                    <div class="market-item" data-crop="potato" data-mandi="nagpur">
+                      <div class="market-crop">
+                        <span class="crop-name">🥔 Potato (Aloo)</span>
+                        <span class="mandi-name">Nagpur Mandi</span>
+                      </div>
+                      <div class="market-pricing">
+                        <span class="crop-price">₹1,200/q</span>
+                        <div class="price-change down">▼ -₹15 (1.2%)</div>
+                      </div>
+                    </div>
+
+                    <div class="market-item" data-crop="onion" data-mandi="pune">
+                      <div class="market-crop">
+                        <span class="crop-name">🧅 Onion (Pyaz)</span>
+                        <span class="mandi-name">Pune Mandi</span>
+                      </div>
+                      <div class="market-pricing">
+                        <span class="crop-price">₹2,100/q</span>
+                        <div class="price-change up">▲ +₹120 (5.7%)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology & Objectives Section -->
+    <section class="tech" id="tech">
+      <div class="container tech-grid">
+        <div class="fade-in-scroll">
+          <span class="section-tag">High-Tech Farming</span>
+          <h2 class="section-title">Powered by Advanced Technology</h2>
+          <p>We blend cloud computation and edge artificial intelligence models to deliver actionable advice with minimal file size and low network requirements.</p>
+          
+          <ul class="objectives-list">
+            <li class="objective-item">
+              <span class="objective-bullet">✓</span>
+              <span>Boosting farmer incomes through optimized yield</span>
+            </li>
+            <li class="objective-item">
+              <span class="objective-bullet">✓</span>
+              <span>Aligning with Digital India initiative to connect rural sectors</span>
+            </li>
+            <li class="objective-item">
+              <span class="objective-bullet">✓</span>
+              <span>Promoting smart, eco-friendly, and sustainable agriculture</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="tech-cards fade-in-scroll">
+          <div class="tech-card">
+            <span class="tech-icon">🤖</span>
+            <h4>AI Diagnostics</h4>
+            <p>Runs lightweight deep learning models locally or in the cloud for instant disease detection.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-icon">🛰️</span>
+            <h4>Weather APIs</h4>
+            <p>Connects to hyper-local weather satellites to provide dynamic regional forecasting alerts.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-icon">🌐</span>
+            <h4>Cloud Databases</h4>
+            <p>Synchronizes pricing details and soil tables with secure database nodes.</p>
+          </div>
+          <div class="tech-card">
+            <span class="tech-icon">📍</span>
+            <h4>GPS Tracking</h4>
+            <p>Detects soil zones and weather grids automatically using localized GPS coordinates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+      <div class="container benefits-grid">
+        <div class="benefits-checklist fade-in-scroll">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 class="section-title">Why Smart Farmer Assistant?</h2>
+          <p style="margin-bottom: 24px;">Designed with simplicity and accessibility in mind, helping farmers secure higher yields at reduced costs.</p>
+          
+          <!-- Benefit 1 -->
+          <div class="benefit-item">
+            <span class="benefit-check">✅</span>
+            <div class="benefit-content">
+              <h4>Early Disease Detection</h4>
+              <p>Recognize leaf spots, rusts, and blight symptoms before they spread to the entire crop fields.</p>
+            </div>
+          </div>
+          <!-- Benefit 2 -->
+          <div class="benefit-item">
+            <span class="benefit-check">✅</span>
+            <div class="benefit-content">
+              <h4>Better Crop Yield</h4>
+              <p>Apply soil-specific fertilizers and irrigate crops at scientifically optimal hours to maximize harvesting size.</p>
+            </div>
+          </div>
+          <!-- Benefit 3 -->
+          <div class="benefit-item">
+            <span class="benefit-check">✅</span>
+            <div class="benefit-content">
+              <h4>Reduced Farming Costs</h4>
+              <p>Prevent fertilizer wastage and avoid pesticide purchases by targeting only identified diseases.</p>
+            </div>
+          </div>
+          <!-- Benefit 4 -->
+          <div class="benefit-item">
+            <span class="benefit-check">✅</span>
+            <div class="benefit-content">
+              <h4>Increased Profits</h4>
+              <p>Monitor market pricing variations in real-time, eliminating crop margins claimed by unverified middlemen.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone screen displaying benefits mock list -->
+        <div style="display: flex; justify-content: center;" class="fade-in-scroll">
+          <div style="background-color: var(--white); border-radius: var(--radius-lg); border: 8px solid var(--text-dark); width: 320px; box-shadow: var(--shadow-lg); overflow: hidden;">
+            <div style="background-color: var(--primary-green); color: var(--white); padding: 18px; text-align: center; font-weight: 700; font-family: var(--font-heading);">
+              Smart Farm Dashboard
+            </div>
+            <div style="padding: 20px; display: flex; flex-direction: column; gap: 16px;">
+              <div style="display: flex; gap: 12px; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                <span style="font-size: 24px;">📈</span>
+                <div>
+                  <h5 style="font-weight:600; font-size: 14px;">Yield Estimate</h5>
+                  <p style="font-size: 12px; color: #2e7d32;">+18% Outlook improved</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 12px; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                <span style="font-size: 24px;">🍂</span>
+                <div>
+                  <h5 style="font-weight:600; font-size: 14px;">Leaf Diagnostics</h5>
+                  <p style="font-size: 12px; color: var(--text-muted);">No disease signs detected today</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 12px; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                <span style="font-size: 24px;">💧</span>
+                <div>
+                  <h5 style="font-weight:600; font-size: 14px;">Irrigation Advice</h5>
+                  <p style="font-size: 12px; color: #b78103;">Irrigate tomorrow at 06:00 AM</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 12px; align-items: center;">
+                <span style="font-size: 24px;">🪙</span>
+                <div>
+                  <h5 style="font-weight:600; font-size: 14px;">Saved Expenses</h5>
+                  <p style="font-size: 12px; color: var(--primary-green);">₹4,200 saved in nitrogen mixes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+      <div class="container">
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+          <span class="section-tag">Roadmap</span>
+          <h2 class="section-title">What's Coming Next</h2>
+          <p class="section-desc">We are continuously working to expand our services. Here are the upcoming features planned for release.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline item 1 -->
+          <div class="timeline-item fade-in-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Phase 1 - Q3 2026</span>
+              <h3>Regional Voice Support</h3>
+              <p>Implementing voice commands and dictation feedback in Hindi, Marathi, and Kannada, lowering barriers for farmers who cannot read standard text.</p>
+            </div>
+          </div>
+          
+          <!-- Timeline item 2 -->
+          <div class="timeline-item fade-in-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Phase 2 - Q4 2026</span>
+              <h3>Soil Testing Integration</h3>
+              <p>Partnering with district laboratories to allow uploading local soil reports directly, allowing our algorithms to calibrate customized chemical recipes.</p>
+            </div>
+          </div>
+          
+          <!-- Timeline item 3 -->
+          <div class="timeline-item fade-in-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Phase 3 - Q1 2027</span>
+              <h3>Government Scheme Updates</h3>
+              <p>Instant notifications and simple summaries of government agricultural policies, subsidies, and state crop welfare applications.</p>
+            </div>
+          </div>
+
+          <!-- Timeline item 4 -->
+          <div class="timeline-item fade-in-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Phase 4 - Q2 2027</span>
+              <h3>Direct Buyer Connection</h3>
+              <p>Enabling a direct negotiation panel between bulk grain dealers, food companies, and farmers to ensure fair trade parameters.</p>
+            </div>
+          </div>
+
+          <!-- Timeline item 5 -->
+          <div class="timeline-item fade-in-scroll">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-tag">Phase 5 - Q3 2027</span>
+              <h3>24/7 AI Farming Chatbot</h3>
+              <p>Integrating large agricultural language models that can solve localized queries (e.g. soil insects, fertilizer ratios) through direct chats.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section / Bottom CTA -->
+    <section id="download" style="background: var(--grad-hero); color: var(--white); text-align: center; padding: 120px 0;">
+      <div class="container" style="max-width: 800px; display: flex; flex-direction: column; align-items: center; gap: 24px;">
+        <h2 class="section-title" style="color: var(--white); margin-bottom: 0;">Join the Smart Agriculture Revolution Today.</h2>
+        <p style="color: rgba(255,255,255,0.9); font-size: 20px; line-height: 1.6; max-width: 600px;">Optimize crop cycles, identify diseases, and maximize your farm revenue. Install the KisaanAI app on your smartphone now.</p>
+        <div style="display: flex; gap: 16px; margin-top: 16px; flex-wrap: wrap; justify-content: center;">
+          <a href="#" class="btn btn-secondary" style="background: var(--white); color: var(--primary-green); border: none; font-size: 18px; padding: 16px 36px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+            📥 Download the App
+          </a>
+          <a href="#features" class="btn btn-text" style="color: var(--white); text-decoration: underline; font-size: 18px;">
+            See interactive scanner demo
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-desc-column">
+          <a href="#" class="logo footer-logo" aria-label="Smart Farmer Assistant logo">
+            <span class="logo-leaf" aria-hidden="true"></span>
+            <span>KisaanAI</span>
+          </a>
+          <p class="footer-desc">Empowering agriculture with data-driven technologies. We translate state-of-the-art neural algorithms into practical mobile tools for local farmers.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#problem">Challenges</a></li>
+            <li><a href="#features">Core Features</a></li>
+            <li><a href="#tech">Our Tech</a></li>
+            <li><a href="#benefits">Key Benefits</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Legal & Support</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-cta-column">
+          <h4>Follow Us</h4>
+          <p class="footer-desc" style="margin-bottom: 16px;">Stay updated on modern agricultural advancements and releases.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Follow us on Facebook">🅵</a>
+            <a href="#" class="social-icon" aria-label="Follow us on Twitter">🆃</a>
+            <a href="#" class="social-icon" aria-label="Follow us on Instagram">🅸</a>
+            <a href="#" class="social-icon" aria-label="Join our Telegram community">🅛</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 KisaanAI (Smart Farmer Assistant). All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
